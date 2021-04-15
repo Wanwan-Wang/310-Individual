@@ -66,7 +66,12 @@ Input:you are not a good robot
 I'm sorry QAQ!
 ```
 ```bash
-...
+You: get location 49.9330397,-119.4263685
+Chatbot: location maybe at 630 Grandview Rd, Kelowna, BC V1V 2C8, Canada
+```
+```bash
+You: show map kelowna
+Chatbot:Opening map at kelowna
 ```
 
 ## GUI and Examples
