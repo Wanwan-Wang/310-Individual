@@ -76,4 +76,4 @@ Chatbot:Opening map at kelowna
 
 ## GUI and Examples
 <img src="https://raw.githubusercontent.com/COSC310-A2-Team10/COSC310-Friend-ChatBot-A3/main/GUI(1).jpg" width="500" height="700">
-<img src="">
+<img src="https://user-images.githubusercontent.com/77659767/114814843-e55aeb80-9d69-11eb-8608-83fae4ed51a9.png">
