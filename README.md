@@ -3,7 +3,9 @@
 
 ## About the project
 This repository contains a programming project code for a chatbot that simulates a conversation between friends. 
-A specific topic about soccer and some scattered topics are covered.
+A specific topic about soccer and some scattered topics are covered. Moreover, after the individual project our chatbot
+can use Google Static Maps API to embeds images into conversation. And use Google Geocoding API to convert urban addresses 
+and display them in a meaningful way in your program.
 
 ## Prepare stage
 before we start running this code we need to download several libraries
@@ -16,26 +18,35 @@ pip install -U textblob
 ```
 
 ## How to run the code
-run server first at the meantime run client
+First, set up the libraries, and open the folder.
+
+Second, click on the socket_server.py and run it.
+
+Third, while the Terminal shows the chatbot is ready,
+you can enter "python chatbox.py" in command line or anaconda
+to open GUI of chatbox.
 
 ## Some features
-1. the system can clean all punctuations in the sentence and convert sentence to lower case
+1. The system can clean all punctuations in the sentence and convert sentence to lower case
 
-2. the system can remove suffixes (e.g.playing and play) and 
+2. The system can remove suffixes (e.g.playing and play) and 
 convert all the words back to root form (e.g. apples and apple)
 
-3. the system can clean all the words with not much meaning in the sentence (e.g. 'a', 'is')
+3. The system can clean all the words with not much meaning in the sentence (e.g. 'a', 'is')
 
 4. The system can perform sentiment analysis （e.g. good and bad)
 
-5. a simple GUI so that the user is typing into a nicer interface and can view a recent history of the conversation
+5. A simple GUI so that the user is typing into a nicer interface and can view a recent history of the conversation
 
-6. new topics about basketball is added to improve the conversation of agent
+6. New topics about basketball is added to improve the conversation of agent
 
-7. a feature enables agent to give at least 5 different reasonable responses when the user enters something beyond the two topics
+7. A feature enables agent to give at least 5 different reasonable responses when the user enters something beyond the two topics
 
-8. a feature enables the system to handle spelling mistakes of the words to improve the fluency of conversation
+8. A feature enables the system to handle spelling mistakes of the words to improve the fluency of conversation
+ 
+9. A feature to use Google Static Maps API to embeds images into conversation (new)
 
+10. A feature to use Google Geocoding API to convert urban addresses and display them in a meaningful way in your program (new)
 ## Sample output
 ```bash
 Input:what is chemistry??  
